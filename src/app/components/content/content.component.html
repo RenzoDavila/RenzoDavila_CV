@@ -4,11 +4,13 @@
     <app-sidebar [studies]="studies" [projects]="projects" [experience]="experience" [main]="main"></app-sidebar>
   </div>
   <div class="col-0 col-md-3"></div>
-  <div id="divElem" *ngIf="(selectedPage$ | async)?.page != 'main'" class="col-12 col-md-9 pt-3 px-0 text-center themed-grid-col h-100 d-md-none section" style="scroll-snap-type: initial;">
+  <div id="divElem" *ngIf="(selectedPage$ | async)?.page != 'main'"
+    class="col-12 col-md-9 pt-3 px-0 text-center themed-grid-col h-100 d-md-none section"
+    style="scroll-snap-type: initial;">
     <app-sub-menu [studies]="studies" [projects]="projects" [experience]="experience" [main]="main"></app-sub-menu>
   </div>
   <div class="col-12 col-md-9 pt-3 px-0 text-center themed-grid-col h-100 section bgmain">
-    <app-pixel (message)="message($event)" [externalMessage]="externalMessage" [studies]="studies" [projects]="projects" [experience]="experience" [main]="main"></app-pixel>
+    <router-outlet></router-outlet>
   </div>
 
   <div *ngIf="(selectedPage$ | async)?.textBox" class="col-12 px-0 text-center themed-grid-col h-100 box">

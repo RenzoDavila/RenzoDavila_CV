@@ -9,6 +9,10 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { PixelComponent } from './components/pixel/pixel.component';
 import { SubMenuComponent } from './components/sub-menu/sub-menu.component';
 import { TextBoxComponent } from './components/text-box/text-box.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ExperienceComponent } from './pages/experience/experience.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { StudiesComponent } from './pages/studies/studies.component';
 
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -23,7 +27,11 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     SidebarComponent,
     PixelComponent,
     SubMenuComponent,
-    TextBoxComponent
+    TextBoxComponent,
+    HomeComponent,
+    ExperienceComponent,
+    ProjectsComponent,
+    StudiesComponent
   ],
   imports: [
     BrowserModule,

@@ -6,22 +6,31 @@
   font-family: 'pixel-bold'
   src: url('assets/fonts/Pixel2.otf')
 
-div
-  font-family: 'pixel'
+*
+  font-family: 'pixel', monospace !important
+  box-sizing: border-box
+
+img
+  image-rendering: pixelated
+  image-rendering: -moz-crisp-edges
+  image-rendering: crisp-edges
 
 html, body
   height: 100%
   margin: 0
+  background-color: #212529 // Bootstrap dark
 
-body::-webkit-scrollbar
-  display: none
+// Custom Scrollbar
+::-webkit-scrollbar
+  width: 12px
+  background: #000
 
-body
-  -ms-overflow-style: none
-  scrollbar-width: none
-  overflow: hidden
+::-webkit-scrollbar-thumb
+  background: #39ff14 // Neon Green
+  border: 2px solid #000
 
 .full-height
   height: 100%
   background-color: #0e2137
+
 

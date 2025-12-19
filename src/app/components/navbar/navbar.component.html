@@ -1,28 +1,36 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark w-100" aria-label="navbar cv">
   <div class="container-fluid">
-    <a class="navbar-brand logo" (click)="changeSelected('main', 'main')"><img title="RENZO DAVILA" alt="renzo davila" src="assets/icon/main/main.svg" height="34" width="34" [ngClass]="{'icon-selected' : selectedPage.page == 'main'}"></a>
-    <button class="navbar-toggler justify-content-md-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand logo" routerLink="/main"><img title="RENZO DAVILA" alt="renzo davila"
+        src="assets/icon/main/main.svg" height="34" width="34" routerLinkActive="icon-selected"></a>
+    <button class="navbar-toggler justify-content-md-end" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse justify-content-md-end" id="navbars">
       <ul class="navbar-nav">
-        <li class="nav-item" (click)="changeSelected('experience', 'nttdata')" title="{{'navbar.experience' | translate }}" data-bs-toggle="collapse" data-bs-target="#navbars">
-          <a class="nav-link" [ngClass]="{'active' : selectedPage.page == 'experience'}">{{'navbar.experience' | translate }}</a>
+        <li class="nav-item" title="{{'navbar.experience' | translate }}" data-bs-toggle="collapse"
+          data-bs-target="#navbars">
+          <a class="nav-link" routerLink="/experiencia" routerLinkActive="active">{{'navbar.experience' | translate
+            }}</a>
         </li>
-        <li class="nav-item" (click)="changeSelected('projects', 'billing')" title="{{'navbar.projects' | translate }}" data-bs-toggle="collapse" data-bs-target="#navbars">
-          <a class="nav-link" [ngClass]="{'active' : selectedPage.page == 'projects'}">{{'navbar.projects' | translate }}</a>
+        <li class="nav-item" title="{{'navbar.projects' | translate }}" data-bs-toggle="collapse"
+          data-bs-target="#navbars">
+          <a class="nav-link" routerLink="/proyectos" routerLinkActive="active">{{'navbar.projects' | translate }}</a>
         </li>
-        <li class="nav-item" (click)="changeSelected('studies', 'tecsup')" title="{{'navbar.studies' | translate }}" data-bs-toggle="collapse" data-bs-target="#navbars">
-          <a class="nav-link" [ngClass]="{'active' : selectedPage.page == 'studies'}">{{'navbar.studies' | translate }}</a>
+        <li class="nav-item" title="{{'navbar.studies' | translate }}" data-bs-toggle="collapse"
+          data-bs-target="#navbars">
+          <a class="nav-link" routerLink="/estudios" routerLinkActive="active">{{'navbar.studies' | translate }}</a>
         </li>
-        <li class="nav-item" (click)="download()" title="{{'navbar.download' | translate }}" data-bs-toggle="collapse" data-bs-target="#navbars">
+        <li class="nav-item" (click)="download()" title="{{'navbar.download' | translate }}" data-bs-toggle="collapse"
+          data-bs-target="#navbars">
           <a class="nav-link">{{'navbar.download' | translate }}</a>
         </li>
       </ul>
       <span class="form-inline d-flex align-items-center justify-content-end">
         <select class="form-control lang pointer" #selectedLang (change)="switchLang(selectedLang.value)">
-          <option *ngFor="let language of translate.getLangs()" [value]="language" [selected]="language === translate.currentLang">
+          <option *ngFor="let language of translate.getLangs()" [value]="language"
+            [selected]="language === translate.currentLang">
             {{language | uppercase}}
           </option>
         </select>

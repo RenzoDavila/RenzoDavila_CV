@@ -1,30 +1,26 @@
+// Retro Styles
 .sidebar
   width: 100%
   padding: 0px !important
+  border-right: 4px solid #fff // Border for the inventory panel
+  background-color: #000
 
 .active
-  background-color: #0e2137 !important
+  background-color: #39ff14 !important // Neon green selection
+  color: #000 !important // Black text on green
   font-weight: bolder
 
-button
-  box-shadow: none !important
-  width: 100%
-  white-space: normal !important
-
-li
-  cursor: pointer
-
-li:hover
-  background-color: #0e2137
-
-a
-  text-decoration: none !important
+.nav-link
+  color: #fff
+  border: 2px solid transparent
+  &:hover
+    border: 2px solid #fff // Box selection effect
 
 .subData
   padding-top: 3px
   padding-bottom: 3px
   text-decoration: none !important
-  // background-color: red
+  border-left: 2px dashed #fff // Hierarchy indicator
 
 .subData:hover
   a
