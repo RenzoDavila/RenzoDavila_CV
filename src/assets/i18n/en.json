@@ -210,5 +210,165 @@
     "task2": "Creation of components using React",
     "task3": "Creation of business logic using Express",
     "task4": "Database administration using MySQL"
+  },
+  "cv": {
+    "headers": {
+      "profile": "Professional Profile",
+      "experience": "Experience",
+      "certifications": "Certifications and Education",
+      "skills": "Skills",
+      "technologies": "Technologies and Tools"
+    },
+    "profile": {
+      "name": "Renzo Davila",
+      "role": "Systems Architect-Developer & AI Solutions Specialist",
+      "contact": "renzo.davila.acosta@gmail.com | +51 949691327 | linkedin",
+      "summary": "Systems Engineer and Senior Developer with over 8 years of experience in banking and corporate consulting. Specialist in modernizing legacy architectures and implementing Artificial Intelligence ecosystems."
+    },
+    "jobs": {
+      "indra": {
+        "date": "August 2025 - Present",
+        "role": "CELLS Developer",
+        "company": "INDRA",
+        "tasks": [
+          "Implement and evolve Cells components using Lit v3 (web components, reactive properties, efficient templates).",
+          "Maintain and patch existing components in Polymer 2, ensuring compatibility and stability.",
+          "Integration of AI agents",
+          "Optimize the development cycle through the use of GitHub Copilot and AI assistants",
+          "Create wrappers/adapters to interoperate Lit v3 with Polymer 2 while migrating the catalog.",
+          "Plan and execute migration from Polymer 2 to Lit v3 (refactoring templates, styles, lifecycles, events).",
+          "Identify legacy dependencies, risks, and technical debt; propose deprecation and replacement plans.",
+          "Ensure compatibility with ShadyDOM/Shadow DOM and ES Modules in target browsers.",
+          "Consume and apply design tokens, typography, palette, and theming from the BBVA design system.",
+          "Align behavior and look & feel with UX/UI, prototypes, and accessibility guidelines."
+        ]
+      },
+      "nyutku": {
+        "date": "November 2024 - Present",
+        "role": "Lead AI Architect & Developer",
+        "company": "NYUTKU SYSTEMS",
+        "tasks": [
+          "AI Agent Ecosystem Development: Creating autonomous assistants using LangChain and Python, integrating conversational memory and logical reasoning for business decision making.",
+          "Process Orchestration (BPA): Implementation of complex workflows in n8n (Self-hosted on Docker), automating lead capture, customer service, and document management.",
+          "Infrastructure & Data: Deployment of vector databases with Supabase and PostgreSQL for RAG (Retrieval-Augmented Generation) systems. VPS (Hostinger/AWS) and Docker container administration.",
+          "Advanced Omnichannel: Integration of mass messaging APIs (Evolution API, WAHA) and sales flows in ManyChat.",
+          "Voice AI: Implementation of telephone agents with ultra-realistic voice synthesis (ElevenLabs) for call automation.",
+          "Development of dashboard with Next.js powered by AI tools for business administration",
+          "Business analysis and AI implementation to optimize processes and guarantee results"
+        ]
+      },
+      "stefanini": {
+        "date": "December 2022 – June 2025",
+        "role": "Fullstack Developer Analyst",
+        "company": "Stefanini LATAM",
+        "tasks": [
+          "Operations Automation: Development of Python scripts and n8n flows to reduce manual load in report generation and system monitoring.",
+          "LLM Integration: Prototyping internal assistants using LangChain for corporate knowledge base queries.",
+          "Migration of applications from Angular.js to modern versions of Angular.",
+          "Creation and maintenance of user interfaces using Angular (version 2+) and React.js.",
+          "Code version management using Bitbucket and Git.",
+          "Mobile application development with Ionic.",
+          "Implementation of accessibility attributes in HTML tags following WAI-ARIA specification.",
+          "Meetings and projects following the SCRUM framework",
+          "Participation in software architecture definition for web projects, ensuring code scalability and maintainability.",
+          "Design and development of cross-platform mobile applications using technologies like Ionic or React Native.",
+          "Maintenance and creation of functionalities with Java"
+        ]
+      },
+      "nttdata_new": {
+        "date": "July 2021 – December 2022",
+        "role": "Center Developer",
+        "company": "NTT DATA Europe & Latam",
+        "tasks": [
+          "Creation and maintenance of Serverless microservices with Node.js and AWS Lambda.",
+          "Creation and maintenance of User Interfaces using Angular 2+",
+          "Version management with Bitbucket/Git",
+          "Maintenance and creation of microservices with NodeJS and AWS Lambda functions",
+          "DB and file management with RDS-AWS/S3-AWS",
+          "Testing with Karma (unit) and Cypress (end-to-end)",
+          "Web application performance optimization, analyzing and adjusting code and database.",
+          "Maintenance and creation of microservices using Spring Framework and Node.js."
+        ]
+      },
+      "webcontrol_new": {
+         "date": "September 2020 – July 2021",
+         "role": "Web Developer",
+         "company": "Webcontrol Corp.",
+         "tasks": [
+            "Database administration using SQL Server.",
+            "Creation and maintenance of user interfaces using VBScript and ASP.NET.",
+            "Development and maintenance of REST API with .NET Core.",
+            "Collaboration with design and product teams to implement user-centered solutions and improve customer experience.",
+            "Creation of technical documentation and user guides to facilitate integration and use of new features by the team and clients."
+         ]
+      },
+      "adiasoft_new": {
+        "date": "January 2021 – April 2021",
+        "role": "Full Stack Developer",
+        "company": "ADIASOFT E.I.R.L",
+        "tasks": [
+          "Adaptation of an electronic invoicing system using React.",
+          "REST API development with Java Spring Framework.",
+          "Creation of microservices with SpringBoot",
+          "Creation of tables, triggers, and indexes in SQL Server.",
+          "Use of git for version management",
+          "Implementation of software development methodologies, such as DevOps, to improve efficiency in the development lifecycle."
+        ]
+      },
+      "orooplex_new": {
+        "date": "September 2019 – August 2020",
+        "role": "Web Developer",
+        "company": "Orooplex",
+        "tasks": [
+          "Creation of web pages focused on advertising and marketing.",
+          "Development and maintenance of user interfaces using React and Angular.",
+          "Creation and maintenance of REST API with Express.js and Node.js.",
+          "Database management using MySQL."
+        ]
+      },
+      "frs_new": {
+        "date": "January 2020 – April 2020",
+        "role": "Support Specialist",
+        "company": "I.E.P. Francisco Rojas School",
+        "tasks": [
+          "Advertising management and creation of ads for the institution using Adobe Illustrator and Photoshop.",
+          "Development and maintenance of user interfaces with WordPress.",
+          "Maintenance of digital devices."
+        ]
+      },
+      "andromeda_new": {
+        "date": "February 2019 – August 2019",
+        "role": "Back-end Developer",
+        "company": "Andromeda.pe S.A.C",
+        "tasks": [
+          "Connection with SUNAT API for CRUD handling of tickets and invoices in the system.",
+          "Database administration using MySQL.",
+          "Creation and maintenance of business logic using Laravel and PHP."
+        ]
+      }
+    },
+    "certifications": [
+      "Complete Kanban from A to Z – Udemy (Nov 2025).",
+      "Kanban Essentials with AI Certified – VMEdu (Oct 2025).",
+      "Business Analysis Fundamentals with AI Certified – VMEdu (Oct 2025).",
+      "OKR Fundamentals with AI Certified – VMEdu (Oct 2025).",
+      "Scrum & Agile Certification – Udemy (Oct 2025).",
+      "ScrumFundamentalsCertified – VMEdu (Sep 2025).",
+      "The DevOps Essentials - The Handbook – Udemy (Oct 2025).",
+      "AWS Cloud Practitioner – AWS (Jan 2024 – Mar 2024).",
+      "Marketing Strategy Fundamentals – SMstudy (Oct 2025).",
+      "Corporate Sales Fundamentals – SMstudy (Oct 2025).",
+      "Digital Marketing Fundamentals – SMstudy (Oct 2025).",
+      "Marketing Research Fundamentals – SMstudy (Oct 2025)."
+    ],
+    "skills": [
+      "Project Management",
+      "Data Analysis",
+      "Critical Thinking",
+      "Problem Solving",
+      "Adaptability",
+      "Time Management"
+    ],
+    "technologies": "Artificial Intelligence & Automation: LangChain | n8n (Workflow Automation) | Python | OpenAI API | Claude API | ElevenLabs | Supabase (Vector DB) | PostgreSQL | WAHA / Evolution API (WhatsApp) | ManyChat | GitHub Copilot.\nFullstack & Mobile Development: Angular (v2+) | React.js | Node.js | Express.js | Java Spring Boot | Ionic | React Native | Lit v3 (Web Components).\nCloud & DevOps: AWS (Lambda, S3, RDS, EC2) | Docker | Portainer | VPS Administration (Linux) | Git | Bitbucket | CI/CD Pipelines."
   }
 }

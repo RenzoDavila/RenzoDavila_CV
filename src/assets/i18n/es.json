@@ -210,5 +210,165 @@
     "task2": "Creación de diversos componentes usando React",
     "task3": "Creación de lógica de negocio haciendo uso de Express",
     "task4": "Administración de bases de datos haciendo uso de MySQL"
+  },
+  "cv": {
+    "headers": {
+      "profile": "Perfil Profesional",
+      "experience": "Experiencia",
+      "certifications": "Certificaciones y Formación",
+      "skills": "Aptitudes",
+      "technologies": "Tecnologías y Herramientas"
+    },
+    "profile": {
+      "name": "Renzo Davila",
+      "role": "Arquitecto-DESARROLLADOR de Sistemas & Especialista en Soluciones de IA",
+      "contact": "renzo.davila.acosta@gmail.com | +51 949691327 | linkedin",
+      "summary": "Ingeniero de Sistemas y Desarrollador Senior con más de 8 años de experiencia en banca y consultoría corporativa. Especialista en la modernización de arquitecturas legacy y en la implementación de ecosistemas de Inteligencia Artificial."
+    },
+    "jobs": {
+      "indra": {
+        "date": "Agosto 2025 - Actualmente",
+        "role": "Desarrollador CELLS",
+        "company": "INDRA",
+        "tasks": [
+          "Implementar y evolucionar componentes Cells usando Lit v3 (web components, reactive properties, templates eficientes).",
+          "Mantener y corregir componentes existentes en Polymer 2, asegurando compatibilidad y estabilidad.",
+          "Integracion de agentes IA",
+          "Optimizar el ciclo de desarrollo mediante el uso de GitHub Copilot y asistentes de IA",
+          "Crear wrappers/adaptadores para interoperar Lit v3 con Polymer 2 mientras se migra el catálogo.",
+          "Planificar y ejecutar la migración de Polymer 2 a Lit v3 (refactor de templates, estilos, ciclos de vida, eventos).",
+          "Identificar dependencias legacy, riesgos y deuda técnica; proponer planes de deprecación y sustitución.",
+          "Garantizar compatibilidad con ShadyDOM/Shadow DOM y ES Modules en navegadores objetivo.",
+          "Consumir y aplicar design tokens, tipografías, paleta y theming del sistema de diseño de BBVA.",
+          "Alinear comportamiento y look & feel con UX/UI, prototipos y guías de accesibilidad."
+        ]
+      },
+      "nyutku": {
+        "date": "Noviembre 2024 - Actualmente",
+        "role": "Lead AI Architect & Developer",
+        "company": "NYUTKU SYSTEMS",
+        "tasks": [
+          "Desarrollo de Ecosistemas de Agentes IA: Creación de asistentes autónomos utilizando LangChain y Python, integrando memoria conversacional y razonamiento lógico para la toma de decisiones empresariales.",
+          "Orquestación de Procesos (BPA): Implementación de flujos de trabajo complejos en n8n (Self-hosted en Docker), automatizando la captación de leads, atención al cliente y gestión documental.",
+          "Infraestructura & Datos: Despliegue de bases de datos vectoriales con Supabase y PostgreSQL para sistemas RAG (Retrieval-Augmented Generation). Administración de servidores VPS (Hostinger/AWS) y contenedores Docker.",
+          "Omnicanalidad Avanzada: Integración de APIs de mensajería masiva (Evolution API, WAHA) y flujos de ventas en ManyChat.",
+          "IA de Voz: Implementación de agentes telefónicos con síntesis de voz ultra-realista (ElevenLabs) para automatización de llamadas.",
+          "Desarrollo de dashboard con Next.js potenciado con herramientas de IA para la administracion de negocios",
+          "Analisis de negocio e implementacion de IA para optimizar procesos y garantizar"
+        ]
+      },
+      "stefanini": {
+        "date": "Diciembre 2022 – Junio 2025",
+        "role": "Analista desarrollador Fullstack",
+        "company": "Stefanini LATAM",
+        "tasks": [
+          "Automatización de Operaciones: Desarrollo de scripts en Python y flujos en n8n para reducir la carga manual en la generación de reportes y monitoreo de sistemas.",
+          "Integración de LLMs: Prototipado de asistentes internos utilizando LangChain para consulta de bases de conocimiento corporativas.",
+          "Migración de aplicaciones de Angular.js a versiones modernas de Angular.",
+          "Creación y mantenimiento de interfaces de usuario utilizando Angular (versión 2 y superiores) y React.js.",
+          "Gestión de versiones de código utilizando Bitbucket y Git.",
+          "Desarrollo de aplicaciones móviles con Ionic.",
+          "Implementación de atributos de accesibilidad en etiquetas HTML siguiendo la especificación WAI-ARIA.",
+          "Reuniones y proyectos siguiendo el marco SCRUM",
+          "Participación en la definición de la arquitectura de software para proyectos web, asegurando la escalabilidad y mantenibilidad del código.",
+          "Diseño y desarrollo de aplicaciones móviles multiplataforma utilizando tecnologías como Ionic o React Native.",
+          "Mantenimiento y creación de funcionalidades con java"
+        ]
+      },
+      "nttdata_new": {
+        "date": "Julio 2021 – Diciembre 2022",
+        "role": "Center Developer",
+        "company": "NTT DATA Europe & Latam",
+        "tasks": [
+          "Creación y mantenimiento de microservicios Serverless con Node.js y AWS Lambda.",
+          "Creación y mantenimiento de Interfaces de usuario haciendo uso de Angular 2",
+          "Gestión de versiones con Bitbucket/Git",
+          "Mantenimiento y creación de microservicios con NodeJS y funciones lambda-AWS",
+          "Gestión de BD y archivos con RDS-AWS/S3-AWS",
+          "Testing con Karma(unitarias) y Cypress(end-to-end)",
+          "Optimización del rendimiento de las aplicaciones web, realizando análisis y ajustes en el código y la base de datos.",
+          "Mantenimiento y creación de microservicios utilizando Spring Framework y Node.js."
+        ]
+      },
+      "webcontrol_new": {
+         "date": "Septiembre 2020 – Julio 2021",
+         "role": "Desarrollador Web",
+         "company": "Webcontrol Corp.",
+         "tasks": [
+            "Administración de bases de datos utilizando SQL Server.",
+            "Creación y mantenimiento de interfaces de usuario utilizando VBScript y ASP.NET.",
+            "Desarrollo y mantenimiento de API REST con .NET Core.",
+            "Colaboración con equipos de diseño y producto para implementar soluciones centradas en el usuario y mejorar la experiencia del cliente.",
+            "Creación de documentación técnica y guías de usuario para facilitar la integración y uso de nuevas funcionalidades por parte del equipo y los clientes."
+         ]
+      },
+      "adiasoft_new": {
+        "date": "Enero 2021 – Abril 2021",
+        "role": "Desarrollador Full Stack",
+        "company": "ADIASOFT E.I.R.L",
+        "tasks": [
+          "Adaptación de un sistema de facturación electrónica utilizando React.",
+          "Desarrollo de API REST con Java Spring Framework.",
+          "Creacion de microservicios con SpingBoot",
+          "Creación de tablas, triggers e índices en SQL Server.",
+          "Uso de git para gestion de versiones",
+          "Implementación de metodologías de desarrollo de software, como DevOps, para mejorar la eficiencia en el ciclo de vida del desarrollo."
+        ]
+      },
+      "orooplex_new": {
+        "date": "Septiembre 2019 – Agosto 2020",
+        "role": "Desarrollador Web",
+        "company": "Orooplex",
+        "tasks": [
+          "Creación de páginas web enfocadas en publicidad y marketing.",
+          "Desarrollo y mantenimiento de interfaces de usuario utilizando React y Angular.",
+          "Creación y mantenimiento de API REST con Express.js y Node.js.",
+          "Gestión de bases de datos utilizando MySQL."
+        ]
+      },
+      "frs_new": {
+        "date": "Enero 2020 – Abril 2020",
+        "role": "Especialista en Soporte",
+        "company": "I.E.P. Francisco Rojas School",
+        "tasks": [
+          "Gestión de publicidad y creación de anuncios para la institución utilizando Adobe Illustrator y Photoshop.",
+          "Desarrollo y mantenimiento de interfaces de usuario con WordPress.",
+          "Mantenimiento de dispositivos digitales."
+        ]
+      },
+      "andromeda_new": {
+        "date": "Febrero 2019 – Agosto 2019",
+        "role": "Back-end Developer",
+        "company": "Andromeda.pe S.A.C",
+        "tasks": [
+          "Conexión con la API de SUNAT para el manejo de CRUD de boletas y facturas en el sistema.",
+          "Administración de bases de datos utilizando MySQL.",
+          "Creación y mantenimiento de la lógica de negocio utilizando Laravel y PHP."
+        ]
+      }
+    },
+    "certifications": [
+      "Complete Kanban from A to Z – Udemy (Nov 2025).",
+      "Kanban Essentials with AI Certified – VMEdu (Oct 2025).",
+      "Business Analysis Fundamentals with AI Certified – VMEdu (Oct 2025).",
+      "OKR Fundamentals with AI Certified – VMEdu (Oct 2025).",
+      "Scrum & Agile Certification – Udemy (Oct 2025).",
+      "ScrumFundamentalsCertified – VMEdu (Sep 2025).",
+      "The DevOps Essentials - The Handbook – Udemy (Oct 2025).",
+      "AWS Cloud Practitioner – AWS (Ene 2024 – Mar 2024).",
+      "Marketing Strategy Fundamentals – SMstudy (Oct 2025).",
+      "Corporate Sales Fundamentals – SMstudy (Oct 2025).",
+      "Digital Marketing Fundamentals – SMstudy (Oct 2025).",
+      "Marketing Research Fundamentals – SMstudy (Oct 2025)."
+    ],
+    "skills": [
+      "Administración de proyectos",
+      "Análisis de datos",
+      "Pensamiento Crítico",
+      "Resolución de Problemas",
+      "Adaptabilidad",
+      "Gestión del Tiempo"
+    ],
+    "technologies": "Inteligencia Artificial & Automatización: LangChain | n8n (Workflow Automation) | Python | OpenAI API | Claude API | ElevenLabs | Supabase (Vector DB) | PostgreSQL | WAHA / Evolution API (WhatsApp) | ManyChat | GitHub Copilot.\nDesarrollo Fullstack & Móvil: Angular (v2+) | React.js | Node.js | Express.js | Java Spring Boot | Ionic | React Native | Lit v3 (Web Components).\nCloud & DevOps: AWS (Lambda, S3, RDS, EC2) | Docker | Portainer | VPS Administration (Linux) | Git | Bitbucket | CI/CD Pipelines."
   }
 }

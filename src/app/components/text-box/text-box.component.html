@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <div *ngIf="!this.whitOutInfo"
+    <div *ngIf="!this.whitOutInfo && !info.isCV"
       class="position-relative overflow-hidden p-4 m-3 mt-0 pt-0 mb-0 pb-0 text-center bg-transparent">
       <div class="mx-auto">
         <h1 class="display-4 fw-bold">{{info.title}}</h1>
@@ -37,7 +37,7 @@
       <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
 
-    <div *ngIf="!this.whitOutInfo && !info.sub" class="d-md-flex p-4 m-3 mt-0 pt-0 mb-0 pb-0 w-100">
+    <div *ngIf="!this.whitOutInfo && !info.sub && !info.isCV" class="d-md-flex p-4 m-3 mt-0 pt-0 mb-0 pb-0 w-100">
       <div class="row w-100">
         <div class="col-12 bg-transparent p-2 pt-0 pb-0 text-center overflow-hidden">
           <div class="p-1">
@@ -61,6 +61,43 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div *ngIf="!this.whitOutInfo && info.isCV" class="p-4 m-3 mt-0 pt-0 mb-0 pb-0 text-start w-100 text-light">
+      <div class="text-center">
+        <h1 class="display-4 fw-bold">{{'cv.profile.name' | translate}}</h1>
+        <h4 class="fw-normal">{{'cv.profile.role' | translate}}</h4>
+        <p class="small text-warning">{{'cv.profile.contact' | translate}}</p>
+      </div>
+      <hr>
+
+      <h4 class="text-uppercase fw-bold mt-4 mb-3 text-warning">{{'cv.headers.profile' | translate}}</h4>
+      <p class="lead">{{'cv.profile.summary' | translate}}</p>
+
+      <h4 class="text-uppercase fw-bold mt-5 mb-3 text-warning">{{'cv.headers.experience' | translate}}</h4>
+      <div *ngFor="let job of info.cvJobs" class="mb-4">
+        <h5 class="fw-bold mb-1 text-info">{{ 'cv.jobs.' + job + '.company' | translate }}</h5>
+        <h6 class="fst-italic mb-2 text-white-50">{{ 'cv.jobs.' + job + '.role' | translate }} | {{ 'cv.jobs.' + job +
+          '.date' | translate }}</h6>
+        <ul class="list-unstyled ps-3">
+          <li *ngFor="let task of ('cv.jobs.' + job + '.tasks' | translate)" class="mb-1">
+            • {{task}}
+          </li>
+        </ul>
+      </div>
+
+      <h4 class="text-uppercase fw-bold mt-5 mb-3 text-warning">{{'cv.headers.certifications' | translate}}</h4>
+      <ul class="ps-3">
+        <li *ngFor="let cert of ('cv.certifications' | translate)">{{cert}}</li>
+      </ul>
+
+      <h4 class="text-uppercase fw-bold mt-5 mb-3 text-warning">{{'cv.headers.skills' | translate}}</h4>
+      <ul class="ps-3">
+        <li *ngFor="let skill of ('cv.skills' | translate)">{{skill}}</li>
+      </ul>
+
+      <h4 class="text-uppercase fw-bold mt-5 mb-3 text-warning">{{'cv.headers.technologies' | translate}}</h4>
+      <p class="text-break">{{'cv.technologies' | translate}}</p>
     </div>
 
     <div *ngIf="!this.whitOutInfo && info.sub">
