@@ -1,0 +1,374 @@
+{
+  "navbar":{
+    "experience": "Experience",
+    "projects": "Projects",
+    "studies": "Studies",
+    "download": "Download CV"
+  },
+  "tec":{
+    "mongodb1": "MongoDB is a distributed, scalable, and flexible document database.",
+    "mongodb2": "Fun Fact: The name 'MongoDB' comes from 'humongous', due to its ability to handle huge volumes of data.",
+    "express1": "Express is a minimal and flexible Node.js web application framework.",
+    "express2": "Fun Fact: Express is so minimal that many other popular frameworks like NestJS are built on top of it.",
+    "android-studio1": "The official IDE for Android development.",
+    "android-studio2": "Fun Fact: It is based on JetBrains' IntelliJ IDEA, known for being one of the smartest IDEs on the market.",
+    "angular1": "Development platform built on TypeScript.",
+    "angular2": "Fun Fact: Angular was completely rewritten from scratch in 2016 (Angular 2), breaking full compatibility with AngularJS.",
+    "asp1": "Microsoft technology for generating dynamic content.",
+    "asp2": "Fun Fact: ASP originally stood for 'Active Server Pages' and was Microsoft's first answer to PHP.",
+    "aws-ec21": "Resizable compute capacity in the cloud.",
+    "aws-ec22": "Fun Fact: EC2 was one of the first services launched by AWS in 2006, revolutionizing cloud computing.",
+    "aws-lambda1": "Run code without provisioning or managing servers.",
+    "aws-lambda2": "Fun Fact: Lambda popularized the 'Serverless' concept, allowing you to pay only for the milliseconds your code runs.",
+    "aws-rds1": "Managed relational database service.",
+    "aws-rds2": "Fun Fact: RDS automates tedious tasks like backups and patching, which used to consume hours for administrators.",
+    "aws-s31": "Object storage built to retrieve any amount of data from anywhere.",
+    "aws-s32": "Fun Fact: S3 is rumored to store trillions of objects and is the backbone of much of the internet.",
+    "bootstrap1": "Most popular CSS framework for responsive mobile-first sites.",
+    "bootstrap2": "Fun Fact: It was originally called 'Twitter Blueprint' and was created by developers at Twitter.",
+    "c-sharp1": "Modern, object-oriented, and type-safe programming language.",
+    "c-sharp2": "Fun Fact: Its name C# is inspired by musical notation, where a '#' indicates a note one semitone higher than C.",
+    "core1": ".NET Core is a cross-platform, open-source framework.",
+    "core2": "Fun Fact: It was Microsoft's first giant step to bringing .NET to Linux and Mac natively.",
+    "css1": "Style sheet language used for describing the presentation of a document written in HTML.",
+    "css2": "Fun Fact: One of the initial proposals for CSS in 1994 included the ability for the user to control the style, not just the author.",
+    "docker1": "Platform for developing, shipping, and running applications in containers.",
+    "docker2": "Fun Fact: Docker popularized containers, but the underlying technology (cgroups) existed in Linux long before.",
+    "figma1": "Collaborative interface design tool.",
+    "figma2": "Fun Fact: Figma was the first design tool built for the browser, enabling real-time collaboration.",
+    "git1": "Free and open source distributed version control system.",
+    "git2": "Fun Fact: Linus Torvalds created Git in just one weekend because he was frustrated with existing tools.",
+    "html1": "Standard markup language for documents designed to be displayed in a web browser.",
+    "html2": "Fun Fact: The first version of HTML created by Tim Berners-Lee had only 18 tags.",
+    "illustrator1": "Industry-standard vector graphics software.",
+    "illustrator2": "Fun Fact: Illustrator started in 1987, being one of Adobe's first software programs.",
+    "java1": "Class-based, object-oriented programming language designed to have as few implementation dependencies as possible.",
+    "java2": "Fun Fact: It was originally called 'Oak' after a tree that stood outside creator James Gosling's window.",
+    "javascript1": "Programming language that conforms to the ECMAScript specification.",
+    "javascript2": "Fun Fact: JavaScript was created by Brendan Eich in just 10 days in 1995.",
+    "jest1": "Delightful JavaScript Testing Framework with a focus on simplicity.",
+    "jest2": "Fun Fact: Developed by Facebook, Jest is massively used for testing React, although it works with any JS project.",
+    "jira1": "Project management tool for agile teams.",
+    "jira2": "Fun Fact: The name JIRA comes from 'Gojira', the Japanese word for Godzilla.",
+    "jquery1": "Fast, small, and feature-rich JavaScript library.",
+    "jquery2": "Fun Fact: At its peak, jQuery was used on over 70% of the top 10 million websites.",
+    "kanban1": "Method for managing knowledge work with an emphasis on just-in-time delivery.",
+    "kanban2": "Fun Fact: Kanban originated on Toyota's production lines in the 1940s to improve efficiency.",
+    "laravel1": "PHP web application framework with expressive, elegant syntax.",
+    "laravel2": "Fun Fact: Laravel was created as a more advanced alternative to CodeIgniter.",
+    "lit-html1": "Efficient, expressive, extensible HTML templating library for JavaScript.",
+    "lit-html2": "Fun Fact: It uses native browser features (Template Literals) to be extremely lightweight and fast.",
+    "mockito1": "Open source testing framework for Java released under the MIT License.",
+    "mockito2": "Fun Fact: Its name is a play on the drink 'Mojito' and the action of making a 'mock'.",
+    "mysql1": "Open-source relational database management system.",
+    "mysql2": "Fun Fact: The dolphin in the MySQL logo has a name: it's called 'Sakila'.",
+    "nestjs1": "Framework for building efficient, scalable Node.js server-side applications.",
+    "nestjs2": "Fun Fact: NestJS is heavily inspired by Angular, using modules, controllers, and dependency injection.",
+    "node1": "JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    "node2": "Fun Fact: Ryan Dahl created Node.js because he wanted a way to know file upload progress in real-time.",
+    "photoshop1": "Raster graphics editor developed and published by Adobe Inc.",
+    "photoshop2": "Fun Fact: Photoshop 1.0 was released exclusively for Macintosh in 1990 and came on a floppy disk.",
+    "php1": "General-purpose scripting language especially suited to web development.",
+    "php2": "Fun Fact: PHP originally stood for 'Personal Home Page'.",
+    "postman1": "API platform for building and using APIs.",
+    "postman2": "Fun Fact: It started as a simple Chrome extension made by a developer to make his own work easier.",
+    "react1": "JavaScript library for building user interfaces.",
+    "react2": "Fun Fact: Initially created for Facebook's News Feed and then released as Open Source in 2013.",
+    "rest1": "Software architectural style that defines a set of constraints to be used for creating web services.",
+    "rest2": "Fun Fact: REST was defined by Roy Fielding in his doctoral dissertation in 2000.",
+    "sass1": "CSS extension language that adds power and elegance to the basic language.",
+    "sass2": "Fun Fact: SASS stands for 'Syntactically Awesome Style Sheets'.",
+    "scrum1": "Agile framework for managing complex knowledge work.",
+    "scrum2": "Fun Fact: The term 'Scrum' comes from Rugby, referring to a formation where the team works together to advance.",
+    "soap1": "Protocol specification for exchanging structured information in the implementation of web services.",
+    "soap2": "Fun Fact: SOAP was the dominant standard before REST, known for being very strict and verbose.",
+    "spring-boot1": "Makes it easy to create stand-alone, production-grade Spring based Applications.",
+    "spring-boot2": "Fun Fact: Spring Boot revolutionized the Java ecosystem by eliminating the infamous massive XML configuration.",
+    "spring1": "Application framework and inversion of control container for the Java platform.",
+    "spring2": "Fun Fact: Its first version was released in 2003 as a lightweight alternative to the complex J2EE standard.",
+    "sql-server1": "Relational database management system developed by Microsoft.",
+    "sql-server2": "Fun Fact: It was originally developed to run on OS/2, not Windows.",
+    "sql1": "Domain-specific language used in programming and designed for managing data held in a relational database management system.",
+    "sql2": "Fun Fact: Originally called SEQUEL (Structured English Query Language), but renamed due to a trademark.",
+    "trello1": "Web-based, Kanban-style, list-making application.",
+    "trello2": "Fun Fact: The name 'Trello' comes from the word 'Trellis', symbolizing structure.",
+    "typescript1": "Typed superset of JavaScript that compiles to plain JavaScript.",
+    "typescript2": "Fun Fact: It was created by Anders Hejlsberg, the same lead architect behind C# and Turbo Pascal.",
+    "vbscript1": "Active Scripting language modeled on Visual Basic.",
+    "vbscript2": "Fun Fact: It was very popular for computer viruses in the 2000s, such as the famous 'ILOVEYOU' virus.",
+    "visual-studio-code1": "Lightweight but powerful source code editor.",
+    "visual-studio-code2": "Fun Fact: Despite being from Microsoft, it's built using web technologies (Electron) and is Open Source.",
+    "visual-studio1": "Integrated development environment (IDE) from Microsoft.",
+    "visual-studio2": "Fun Fact: The first version, Visual Studio 97, first consolidated tools like Visual Basic and Visual C++ into a single environment.",
+    "wordpress1": "Content management system (CMS) written in PHP.",
+    "wordpress2": "Fun Fact: It powers over 40% of all websites on the internet."
+  },
+  "info-exp":{
+    "full": "Full Stack Developer",
+    "front": "Front-End Developer",
+    "back": "Back-End Developer",
+    "support": "Support Specialist"
+  },
+  "nttdata":{
+    "date": "July 2021 - Present",
+    "desc1": "NTT DATA, part of the NTT Group, is one of the top 10 IT service providers globally.",
+    "desc2": "They offer consulting services, industry solutions, business process services, IT modernization, and managed services.",
+    "task1": "Backend development using Java Spring",
+    "task2": "Creation, maintenance and improvement of various components for the front-end using Angular11+",
+    "task3": "Development of microservices using Java Spring Boot",
+    "task4": "Container management using Docker",
+    "task5": "Creation and maintenance of various components for the front-end using Angular11+",
+    "task6": "Building microservices using node js with lambda functions - AWS",
+    "task7": "MySQL Database Management with RDS Service - AWS",
+    "task8": "Adding modules for the front-end using Lit-Html (JS)",
+    "task9": "Front-end recreation of the silverlight system using Angular11+",
+    "task10": "Module testing using jest.js",
+    "task11": "API REST consumption"
+  },
+  "renfe":{
+    "date": "November 2022 - Present",
+    "desc1": "Administration platform for railways and trains in Spain, including routes, loads, stations, etc.",
+    "desc2": "Technologies used: Java Spring - Angular14.",
+    "task1": "Backend development using Java Spring",
+    "task2": "Creation, maintenance and improvement of various components for the front-end using Angular14"
+  },
+  "datadis":{
+    "date": "February 2022 - October 2022",
+    "desc1": "It is an electricity consumption data platform that allows the administrator to view, add, edit and delete various companies and their electricity consumption to a database through an API and users in general to verify electricity consumption in various periods of time..",
+    "desc2": "Technologies used: Java Spring Boot - Docker - Angular13.",
+    "task1": "Development of microservices using Java Spring Boot",
+    "task2": "Container management using Docker",
+    "task3": "Creation and maintenance of various components for the front-end using Angular13"
+  },
+  "ree":{
+    "date": "December 2021 - January 2022",
+    "desc1": "Administrative system and dashboard for the electrical network of Spain.",
+    "desc2": "The system allows the general population to verify their electricity consumption through various graphs.",
+    "desc3": "Technologies used: Node js - lambda(AWS) -  RDS(AWS) - MySQL - LitHtml(JS).",
+    "task1": "Building microservices using node js with lambda functions - AWS",
+    "task2": "MySQL Database Management with RDS Service - AWS",
+    "task3": "Adding modules for the front-end using Lit-Html (JS)"
+  },
+  "ibost":{
+    "date": "July 2021 - November 2021",
+    "desc1": "The project consisted of migrating a Silverlight-based system to a new project using Angular11 technology.",
+    "desc2": "iBost is a company that is dedicated to the distribution of various electrical resistances and its system required an administration of orders and customers.",
+    "desc3": "Technologies used: jest.js - API REST - Angular11.",
+    "task1": "Front-end recreation of the silverlight system using Angular11",
+    "task2": "Module testing using jest.js",
+    "task3": "API REST consumption"
+  },
+  "adiasoft":{
+    "date": "January 2022 - April 2022",
+    "desc1": "It is an ERP environment sales software, for automated and administrative management for small and medium-sized companies.",
+    "desc2": "The project consisted of creating a platform oriented towards electronic invoicing that can be integrated into both old and current systems.",
+    "desc3": "Technologies used: Java Spring Boot - React - SQL server.",
+    "task1": "Adaptation of an electronic billing system using React",
+    "task2": "REST API development with Java Spring Boot",
+    "task3": "Creation of tables, triggers and indexes SQL server"
+  },
+  "webControl":{
+    "date": "September 2020 - July 2021",
+    "desc1": "WebControl System is a company in the area of information technology, mainly oriented to mining companies.",
+    "desc2": "The system is oriented towards business management, providing tools such as reports, shipment control, Kardex, CRUDs, etc.",
+    "desc3": "Technologies used: Visual Basic Script - ASP.NET - SQL server - .NET CORE.",
+    "task1": "Database administration using SQL Server",
+    "task2": "Front-End development using VBScript / ASP.NET",
+    "task3": "Back-End REST API development with .NET CORE"
+  },
+  "orooplex":{
+    "date": "September 2019 - August 2020",
+    "desc1": "Orooplex is a web service oriented to business announcements, publicity and digital marketing.",
+    "desc2": "Technologies used: React - Angular - Node.Js - Express - MySQL.",
+    "task1": "Creation of web pages focused on advertising and marketing",
+    "task2": "Front-End development using React / Angular",
+    "task3": "Back-End REST API development with  MySQL / Express / Node.Js"
+  },
+  "frs":{
+    "date": "January 2020 - April 2020",
+    "desc1": "Francisco Rojas School is a private educational institution.",
+    "desc2": "The support specialist is in charge of advertising, maintenance and development of the institution's website and maintenance of digital equipment in the facility.",
+    "desc3": "Technologies used: wordpress - Adobe Illustrator - Adobe Photoshop",
+    "task1": "Creation of advertisements and announcements of the institution using Adobe Illustrator and Photoshop",
+    "task2": "Administration and creation of components of the web page using Wordpress",
+    "task3": "Maintenance of digital devices of the facilities"
+  },
+  "andromeda":{
+    "date": "February 2019 - August 2019",
+    "desc1": "Andromeda.Pe is a company whose business is the development of web applications mainly oriented to electronic billing.",
+    "desc2": "Technologies used: Laravel - MySQL",
+    "task1": "Connection with SUNAT API to CRUD of tickets and billings in the system",
+    "task2": "Database administration using MySQL",
+    "task3": "Creation and maintenance of business logic using Laravel - php"
+  },
+  "auditel":{
+    "date": "December 2018 - February 2019",
+    "desc1": "Auditel is a wholesaler in telecommunications and security.",
+    "desc2": "Implement security hardware and software to various institutions.",
+    "desc3": "Technologies used: React - Express - Node.Js - MongoDB",
+    "task1": "Creation of a web page in which students can perform various actions such as view notes, register entries, view messages, etc",
+    "task2": "Creation of components using React",
+    "task3": "Creation of business logic using Express",
+    "task4": "Database administration using MySQL"
+  },
+  "cv": {
+    "headers": {
+      "profile": "Professional Profile",
+      "experience": "Experience",
+      "certifications": "Certifications and Education",
+      "skills": "Skills",
+      "technologies": "Technologies and Tools"
+    },
+    "profile": {
+      "name": "Renzo Davila",
+      "role": "Systems Architect-Developer & AI Solutions Specialist",
+      "contact": "renzo.davila.acosta@gmail.com | +51 949691327 | linkedin",
+      "summary": "Systems Engineer and Senior Developer with over 8 years of experience in banking and corporate consulting. Specialist in modernizing legacy architectures and implementing Artificial Intelligence ecosystems."
+    },
+    "jobs": {
+      "indra": {
+        "date": "August 2025 - Present",
+        "role": "CELLS Developer",
+        "company": "INDRA",
+        "tasks": [
+          "Implement and evolve Cells components using Lit v3 (web components, reactive properties, efficient templates).",
+          "Maintain and patch existing components in Polymer 2, ensuring compatibility and stability.",
+          "Integration of AI agents",
+          "Optimize the development cycle through the use of GitHub Copilot and AI assistants",
+          "Create wrappers/adapters to interoperate Lit v3 with Polymer 2 while migrating the catalog.",
+          "Plan and execute migration from Polymer 2 to Lit v3 (refactoring templates, styles, lifecycles, events).",
+          "Identify legacy dependencies, risks, and technical debt; propose deprecation and replacement plans.",
+          "Ensure compatibility with ShadyDOM/Shadow DOM and ES Modules in target browsers.",
+          "Consume and apply design tokens, typography, palette, and theming from the BBVA design system.",
+          "Align behavior and look & feel with UX/UI, prototypes, and accessibility guidelines."
+        ]
+      },
+      "nyutku": {
+        "date": "November 2024 - Present",
+        "role": "Lead AI Architect & Developer",
+        "company": "NYUTKU SYSTEMS",
+        "tasks": [
+          "AI Agent Ecosystem Development: Creating autonomous assistants using LangChain and Python, integrating conversational memory and logical reasoning for business decision making.",
+          "Process Orchestration (BPA): Implementation of complex workflows in n8n (Self-hosted on Docker), automating lead capture, customer service, and document management.",
+          "Infrastructure & Data: Deployment of vector databases with Supabase and PostgreSQL for RAG (Retrieval-Augmented Generation) systems. VPS (Hostinger/AWS) and Docker container administration.",
+          "Advanced Omnichannel: Integration of mass messaging APIs (Evolution API, WAHA) and sales flows in ManyChat.",
+          "Voice AI: Implementation of telephone agents with ultra-realistic voice synthesis (ElevenLabs) for call automation.",
+          "Development of dashboard with Next.js powered by AI tools for business administration",
+          "Business analysis and AI implementation to optimize processes and guarantee results"
+        ]
+      },
+      "stefanini": {
+        "date": "December 2022 – June 2025",
+        "role": "Fullstack Developer Analyst",
+        "company": "Stefanini LATAM",
+        "tasks": [
+          "Operations Automation: Development of Python scripts and n8n flows to reduce manual load in report generation and system monitoring.",
+          "LLM Integration: Prototyping internal assistants using LangChain for corporate knowledge base queries.",
+          "Migration of applications from Angular.js to modern versions of Angular.",
+          "Creation and maintenance of user interfaces using Angular (version 2+) and React.js.",
+          "Code version management using Bitbucket and Git.",
+          "Mobile application development with Ionic.",
+          "Implementation of accessibility attributes in HTML tags following WAI-ARIA specification.",
+          "Meetings and projects following the SCRUM framework",
+          "Participation in software architecture definition for web projects, ensuring code scalability and maintainability.",
+          "Design and development of cross-platform mobile applications using technologies like Ionic or React Native.",
+          "Maintenance and creation of functionalities with Java"
+        ]
+      },
+      "nttdata_new": {
+        "date": "July 2021 – December 2022",
+        "role": "Center Developer",
+        "company": "NTT DATA Europe & Latam",
+        "tasks": [
+          "Creation and maintenance of Serverless microservices with Node.js and AWS Lambda.",
+          "Creation and maintenance of User Interfaces using Angular 2+",
+          "Version management with Bitbucket/Git",
+          "Maintenance and creation of microservices with NodeJS and AWS Lambda functions",
+          "DB and file management with RDS-AWS/S3-AWS",
+          "Testing with Karma (unit) and Cypress (end-to-end)",
+          "Web application performance optimization, analyzing and adjusting code and database.",
+          "Maintenance and creation of microservices using Spring Framework and Node.js."
+        ]
+      },
+      "webcontrol_new": {
+         "date": "September 2020 – July 2021",
+         "role": "Web Developer",
+         "company": "Webcontrol Corp.",
+         "tasks": [
+            "Database administration using SQL Server.",
+            "Creation and maintenance of user interfaces using VBScript and ASP.NET.",
+            "Development and maintenance of REST API with .NET Core.",
+            "Collaboration with design and product teams to implement user-centered solutions and improve customer experience.",
+            "Creation of technical documentation and user guides to facilitate integration and use of new features by the team and clients."
+         ]
+      },
+      "adiasoft_new": {
+        "date": "January 2021 – April 2021",
+        "role": "Full Stack Developer",
+        "company": "ADIASOFT E.I.R.L",
+        "tasks": [
+          "Adaptation of an electronic invoicing system using React.",
+          "REST API development with Java Spring Framework.",
+          "Creation of microservices with SpringBoot",
+          "Creation of tables, triggers, and indexes in SQL Server.",
+          "Use of git for version management",
+          "Implementation of software development methodologies, such as DevOps, to improve efficiency in the development lifecycle."
+        ]
+      },
+      "orooplex_new": {
+        "date": "September 2019 – August 2020",
+        "role": "Web Developer",
+        "company": "Orooplex",
+        "tasks": [
+          "Creation of web pages focused on advertising and marketing.",
+          "Development and maintenance of user interfaces using React and Angular.",
+          "Creation and maintenance of REST API with Express.js and Node.js.",
+          "Database management using MySQL."
+        ]
+      },
+      "frs_new": {
+        "date": "January 2020 – April 2020",
+        "role": "Support Specialist",
+        "company": "I.E.P. Francisco Rojas School",
+        "tasks": [
+          "Advertising management and creation of ads for the institution using Adobe Illustrator and Photoshop.",
+          "Development and maintenance of user interfaces with WordPress.",
+          "Maintenance of digital devices."
+        ]
+      },
+      "andromeda_new": {
+        "date": "February 2019 – August 2019",
+        "role": "Back-end Developer",
+        "company": "Andromeda.pe S.A.C",
+        "tasks": [
+          "Connection with SUNAT API for CRUD handling of tickets and invoices in the system.",
+          "Database administration using MySQL.",
+          "Creation and maintenance of business logic using Laravel and PHP."
+        ]
+      }
+    },
+    "certifications": [
+      "Complete Kanban from A to Z – Udemy (Nov 2025).",
+      "Kanban Essentials with AI Certified – VMEdu (Oct 2025).",
+      "Business Analysis Fundamentals with AI Certified – VMEdu (Oct 2025).",
+      "OKR Fundamentals with AI Certified – VMEdu (Oct 2025).",
+      "Scrum & Agile Certification – Udemy (Oct 2025).",
+      "ScrumFundamentalsCertified – VMEdu (Sep 2025).",
+      "The DevOps Essentials - The Handbook – Udemy (Oct 2025).",
+      "AWS Cloud Practitioner – AWS (Jan 2024 – Mar 2024).",
+      "Marketing Strategy Fundamentals – SMstudy (Oct 2025).",
+      "Corporate Sales Fundamentals – SMstudy (Oct 2025).",
+      "Digital Marketing Fundamentals – SMstudy (Oct 2025).",
+      "Marketing Research Fundamentals – SMstudy (Oct 2025)."
+    ],
+    "skills": [
+      "Project Management",
+      "Data Analysis",
+      "Critical Thinking",
+      "Problem Solving",
+      "Adaptability",
+      "Time Management"
+    ],
+    "technologies": "Artificial Intelligence & Automation: LangChain | n8n (Workflow Automation) | Python | OpenAI API | Claude API | ElevenLabs | Supabase (Vector DB) | PostgreSQL | WAHA / Evolution API (WhatsApp) | ManyChat | GitHub Copilot.\nFullstack & Mobile Development: Angular (v2+) | React.js | Node.js | Express.js | Java Spring Boot | Ionic | React Native | Lit v3 (Web Components).\nCloud & DevOps: AWS (Lambda, S3, RDS, EC2) | Docker | Portainer | VPS Administration (Linux) | Git | Bitbucket | CI/CD Pipelines."
+  }
+}
